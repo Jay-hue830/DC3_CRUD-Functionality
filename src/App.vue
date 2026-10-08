@@ -217,6 +217,8 @@ onMounted(() => {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 24px 80px;
+  background: #0b1220;
+  min-height: 100vh;
 }
 
 .topbar {
@@ -232,7 +234,7 @@ onMounted(() => {
   font-size: 0.76rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #4b82b8;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -240,12 +242,12 @@ h1 {
   margin: 0;
   font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1.1;
-  color: #102a43;
+  color: #ffffff;
 }
 
 .status-pill {
-  background: rgba(75, 130, 184, 0.12);
-  color: #1c4e80;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
   padding: 10px 16px;
   border-radius: 999px;
   font-weight: 700;
